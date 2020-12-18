@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resolutions",
+      "handler": "resolution.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resolutions/count",
+      "handler": "resolution.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resolutions/:id",
+      "handler": "resolution.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resolutions",
+      "handler": "resolution.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resolutions/:id",
+      "handler": "resolution.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resolutions/:id",
+      "handler": "resolution.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "name": "profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "user_id": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "alias": {
+      "type": "string"
+    }
+  }
+}

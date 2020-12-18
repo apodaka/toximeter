@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resolutions",
+  "info": {
+    "name": "resolution"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "score": {
+      "type": "biginteger",
+      "required": true
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
