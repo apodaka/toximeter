@@ -21,7 +21,13 @@
       "type": "biginteger",
       "required": true
     },
-    "color": {
+    "backgroundColor": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "borderColor": {
       "type": "string"
     }
   }

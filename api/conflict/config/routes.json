@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conflicts",
+      "handler": "conflict.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conflicts/count",
+      "handler": "conflict.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/conflicts/:id",
+      "handler": "conflict.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/conflicts",
+      "handler": "conflict.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conflicts/:id",
+      "handler": "conflict.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conflicts/:id",
+      "handler": "conflict.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

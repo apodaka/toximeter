@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conflicts",
+  "info": {
+    "name": "conflict"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "hfecInicio": {
+      "type": "datetime",
+      "required": true
+    },
+    "hfecFin": {
+      "type": "datetime"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "tags": {
+      "collection": "tags"
+    },
+    "resolution": {
+      "model": "resolution"
+    }
+  }
+}
